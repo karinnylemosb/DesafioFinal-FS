@@ -57,8 +57,14 @@ body {
   margin-bottom: 1em;
 }
 
-.box{
- 
+.image-capa{
+  width:100%;
+}
+.frase-capa{
+  position: absolute;
+  top: 5em;
+  left: 25em;
+  font-size: 3em;
 }
 .text-title{
   margin-top: 3em;

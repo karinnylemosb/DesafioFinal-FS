@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import Animals from '../model/animal-model';
+import capa from '../images/img4.jpg'
 import Navbar from '../components/navbar';
 
 function HomePage() {
@@ -26,7 +26,9 @@ function HomePage() {
   return (
     <article key={animals.id}>
       <Navbar />
-      <Animals animals={animals} />
+      <img className='image-capa' src={capa} alt='img'></img>
+      <h1 className='frase-capa'> Pertinho da natureza a gente é bem mais feliz. </h1>
+      
     </article>
   );
 }
