@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
-import Animals from './pages/animal';
-import Navbar from './components/navbar';
+import Animals from '../model/animal-model';
+import Navbar from '../components/navbar';
 
-function App() {
+function HomePage() {
   const [animals, setAnimals] = useState([]);
 
   useEffect(() => {
@@ -21,7 +21,6 @@ function App() {
     );
     const animals = await response.json();
     setAnimals(animals);
-    console.log(animals);
   };
 
   return (
@@ -32,4 +31,4 @@ function App() {
   );
 }
 
-export default App;
+export default HomePage;

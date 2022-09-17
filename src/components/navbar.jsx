@@ -9,13 +9,13 @@ function Navbar() {
         <li> <img className="image-logo" src={logo} alt="oi"/>
         </li>
           <li>
-            <> HOME</>
+            <Link to = "/"> HOME</Link>
           </li>
           <li>
-            <>ANIMALS</>
+            <Link to = "/animals">ANIMALS</Link>
           </li>
           <li>
-            <>GALLERY</>
+            <Link to = "/animalgallery" >GALLERY</Link>
           </li>
         </ul>
       </nav>

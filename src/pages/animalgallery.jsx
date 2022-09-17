@@ -1,7 +1,10 @@
+// import Animals from '../pages/animal';
+import { Fragment } from "react";
 import { useEffect, useState } from 'react';
-import Animals from './components/Animal';
+import Animals from '../model/animal-model';
+import Navbar from '../components/navbar';
 
-function App() {
+function AnimalGalery() {
   const [animals, setAnimals] = useState([]);
 
   useEffect(() => {
@@ -23,20 +26,31 @@ function App() {
     console.log(animals);
   };
 
-  return (
-    <main>
-      <div className="box-animals">
-        <Animals animals={animals} />
-        <Animals animals={animals} />
-        <Animals animals={animals} />
-        <Animals animals={animals} />
-        <Animals animals={animals} />
-        <Animals animals={animals} />
-      </div>
 
-      
-    </main>
+  return (
+    <Fragment>
+      <body>
+      <Navbar />
+        <main>
+          
+          <div className="box">
+            <h1 className="text-title"> Galeria de animais</h1>
+              <div className="grid">
+                <Animals animals={animals} />
+                <Animals animals={animals} />
+                <Animals animals={animals} />
+                <Animals animals={animals} />
+                <Animals animals={animals} />
+                <Animals animals={animals} />
+              </div>
+          </div>
+          
+        
+        </main>
+    </body>
+    </Fragment>
   );
 }
 
-export default App;
+export default AnimalGalery;
+

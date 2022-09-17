@@ -19,16 +19,14 @@ body {
 .container {
   width: 100%;
 }
-main {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-}
+
 
 .img-monstros {
   width: 50vh;
+}
+
+.galeria{
+
 }
 
 .animal{
@@ -36,6 +34,8 @@ main {
 }
 
 .animals-container {
+  align-items: center;
+  margin: 1em;
   background-color: #74982E;
   border-radius:2em;
   width: 30em;
@@ -56,9 +56,21 @@ main {
   cursor: pointer;
   margin-bottom: 1em;
 }
-.box-animals{
-  display: inline-block;
-  margin: 1em;
+
+.box{
+ 
+}
+.text-title{
+  margin-top: 3em;
+  text-align: center;
+  width:100vh;
+}
+.grid{
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  margin: 0 1em;
+
 }
 
 li {
@@ -66,6 +78,7 @@ li {
 }
 
 .navbar {
+  
   color: black;
   background-color:white;
   width: 100%;
@@ -86,4 +99,6 @@ li {
 .image-logo{
   width:30%;
 }
+
+
 
