@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import Navbar from '../components/navbar';
+
 import { Fragment } from "react";
 
 function AnimalPage() {
