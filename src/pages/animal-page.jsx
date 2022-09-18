@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import Navbar from '../components/navbar';
 import { Fragment } from "react";
 
+
 function AnimalPage() {
   const [animals, setAnimals] = useState([]);
 
@@ -30,10 +31,11 @@ return (
       <Navbar/>
       <main>
         
+       
         
 
           <section className="animals-container">
-            <h1> Beautiful Animals </h1>
+            <h1> Animal </h1>
             <br></br>
             <img
               className="img-monstros"
@@ -46,7 +48,7 @@ return (
             <p className="animal">Diet: {animals.diet}</p>
             <p className="animal"> Geographic location: {animals.geo_range}</p>
             <button type="button" className="btn" onClick={getAnimals}>
-              Get Another Animal
+            Click to know another one!
             </button>
           </section>
     </main>

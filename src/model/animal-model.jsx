@@ -31,8 +31,7 @@ return (
       <main>
         
           <section className="animals-container">
-            <h1> Beautiful Animals </h1>
-            <br></br>
+
             <img
               className="img-monstros"
               src={animals.image_link}
@@ -44,7 +43,7 @@ return (
             <p className="animal">Diet: {animals.diet}</p>
             <p className="animal"> Geographic location: {animals.geo_range}</p>
             <button type="button" className="btn" onClick={getAnimals}>
-              Get Another Animal
+            Click to know another one!
             </button>
           </section>
     </main>

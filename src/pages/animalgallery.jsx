@@ -34,9 +34,9 @@ function AnimalGalery() {
         <main>
           
           <div className="box">
-            <h1 className="text-title"> Galeria de animais</h1>
+            <h1 className="text-title"> What do we have in our house:  </h1>
               <div className="grid">
-                <Animals animals={animals} />
+                <Animals animals={animals} elevation={10} />
                 <Animals animals={animals} />
                 <Animals animals={animals} />
                 <Animals animals={animals} />

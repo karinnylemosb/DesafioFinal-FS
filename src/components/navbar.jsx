@@ -6,16 +6,16 @@ function Navbar() {
     <>
       <nav className="navbar">
         <ul>
-        <li> <img className="image-logo" src={logo} alt="oi"/>
+        <li> <Link to = "/"> <img className="image-logo" src={logo} alt="oi"/> </Link>
         </li>
           <li>
-            <Link to = "/"> HOME</Link>
+            <Link to = "/" className="menu"> HOME</Link>
           </li>
           <li>
-            <Link to = "/animals">ANIMALS</Link>
+            <Link to = "/animals" className="menu">ANIMALS</Link>
           </li>
           <li>
-            <Link to = "/animalgallery" >GALLERY</Link>
+            <Link to = "/animalgallery" className="menu" >GALLERY</Link>
           </li>
         </ul>
       </nav>
