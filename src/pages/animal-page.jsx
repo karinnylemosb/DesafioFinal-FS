@@ -24,17 +24,11 @@ function AnimalPage() {
     setAnimals(animals);
   };
 
-// const Animals = (props) => {
-//   const animals = props.animals;
 return (
     <Fragment>
       <Navbar/>
       <main>
-        
-       
-        
-
-          <section className="animals-container">
+         <section className="animals-container">
             <h1> Animal </h1>
             <br></br>
             <img

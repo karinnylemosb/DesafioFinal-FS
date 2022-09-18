@@ -1,5 +1,3 @@
-
-
 const Animalroutes = () => {
   return (
     <main>

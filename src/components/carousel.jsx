@@ -5,7 +5,7 @@ import capa3 from '../images/img3.jpg';
 import capa4 from '../images/img4.jpg';
 import capa5 from '../images/img5.jpg';
 
-import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
+import 'react-responsive-carousel/lib/styles/carousel.min.css'; 
 import { Carousel } from 'react-responsive-carousel';
 
 class DemoCarousel extends Component {
@@ -37,10 +37,4 @@ class DemoCarousel extends Component {
   }
 }
 
-// ReactDOM.render(<DemoCarousel />, document.querySelector('.demo-carousel'));
-
 export { DemoCarousel };
-
-
-//overflow: hidden;
-//transition: border .15s ease-in;     padding: 2px;

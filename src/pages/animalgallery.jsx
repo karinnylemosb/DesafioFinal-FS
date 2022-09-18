@@ -1,4 +1,3 @@
-// import Animals from '../pages/animal';
 import { Fragment } from "react";
 import { useEffect, useState } from 'react';
 import Animals from '../model/animal-model';
@@ -26,8 +25,7 @@ function AnimalGalery() {
     console.log(animals);
   };
 
-
-  return (
+return (
     <Fragment>
       <body>
       <Navbar />
